@@ -1,6 +1,8 @@
 # ejabberd-pg-auth-nodejs
 The starts of a module in NodeJS for eJabberd to do external authentication against a Postgres database.
 
+**This only does authentication just now - other features may be added in future.**
+
 ##eJabberd
 Install NodeJS, Postgres and run the eJabberd Sql file to create the database (using plain text passwords).
 
