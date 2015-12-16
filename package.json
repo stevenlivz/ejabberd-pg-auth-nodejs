@@ -1,0 +1,23 @@
+{
+  "name": "ejabberd-pg-auth",
+  "version": "0.0.1",
+  "description": "eJabberd Authentication Daemon for Postgres",
+  "keywords": ["ejabberd", "postgres", "auth"],
+  "bin": {
+    "ejabberd-pg-auth": "./bin/ejabberd-pg-auth.js"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "etc": "~0.5.1"
+  },
+  "engines": {
+    "node": "~4.1.0",
+    "npm": "~2.14.3"
+  },
+  "author": "Steven Livingstone <steven@livz.org>",
+  "preferGlobal": true,
+  "private": true
+}
